@@ -1,3 +1,77 @@
-* {
+/*div {
   border: 1px solid black;
+}*/
+
+/***
+Palette ID
+http://paletton.com/#uid=11J0u0k00nk01IF00t101hV0B9f
+***/
+
+
+      /***Universal***/
+
+html {
+  font-size: 16px;
+  font-family: Nunito;
+}
+
+      /***Header***/
+
+header {
+  align-items: center;
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+header div {
+  align-items: center;
+  display: flex;
+  height: 2rem;
+}
+header div object {
+  height: 2rem;
+  width: auto;
+}
+
+header ul {
+  font-weight: 600;
+  display: flex;
+}
+
+header a {
+  color: rgb(74, 72, 71);
+}
+
+.navspace {
+  padding-left: 1rem;
+}
+
+.titlespace {
+  font-size: 1.2rem;
+}
+
+.titlecolmar {
+  color: rgb(74, 72, 71);
+  font-weight: 700;
+}
+
+.titleacademy {
+  color: rgb(143, 143, 143);
+  font-weight: 600;
+}
+
+
+      /***Section One***/
+
+.sectionone {
+  display: inline-flex;
+  background-color: rgb(189,185,185);
+  padding: 2rem 1.5rem;
+}
+
+.sectionone img {
+  height: auto;
+  width: 60%;
 }
