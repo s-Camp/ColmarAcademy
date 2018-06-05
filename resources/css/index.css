@@ -21,6 +21,23 @@ html {
   padding: 0 1.5rem;
 }
 
+.containertwo {
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.containerthree {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70%;
+  margin: 0 auto;
+  /* padding: 0 2.5rem; */
+}
+
       /***Header***/
 
 header {
@@ -51,6 +68,10 @@ header {
 
 .header a {
   color: rgb(74, 72, 71);
+}
+
+.xml {
+  display: none;
 }
 
 .navspace {
@@ -129,3 +150,332 @@ header {
   background-color: white
 }
 
+.leftpanel {
+  height: auto;
+  padding: 0 1.5rem 0 0;
+  max-width: 60%;
+}
+
+.leftpanel img {
+  height: auto;
+  max-width: 100%;
+  padding: 0 0 2rem 0;
+}
+
+.rightpanel {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-width: 40%;
+}
+
+.rightpanel div {
+  height: auto;
+  max-width: 100%;
+}
+
+.rightpanel div img {
+  height: auto;
+  max-width: 35%;
+}
+
+.smallpanel {
+  display: flex;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.smallpanel div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.toppanel {
+  padding-top: 0;
+}
+
+.bottompanel {
+  background-color: rgb(186, 186, 186);
+}
+
+.sectiontwo h1 {
+  color: rgb(74, 72, 71);
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem; 
+}
+
+.sectiontwo p {
+  color: rgb(74, 72, 71);
+  padding-bottom: .3rem;
+}
+
+.sectiontwo span {
+  color: rgb(74, 72, 71);
+}
+
+.sectiontwo h2 {
+  color: rgb(74, 72, 71);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sectiontwo h3 {
+  color: rgb(74, 72, 71);
+  padding: 0.5rem 0;
+}
+
+.sectiontwo a {
+  color: dodgerblue;
+  text-decoration: underline;
+}
+
+      /***Section Three***/
+
+.sectionthree {
+  background-color: rgb(231, 231, 231);
+}
+
+.sectionthree h1 {
+  color: rgb(74, 72, 71);
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.panels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+.panels div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  margin: 1rem;
+}
+
+.panels img {
+  height: auto;
+  max-width: 100%;
+}
+
+.panels h2 {
+  color: rgb(74, 72, 71);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.panels span {
+  color: rgb(74, 72, 71);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+}
+
+.panels p {
+  color: rgb(74, 72, 71);
+  font-size: 1rem;
+  padding: 0 0 1.5rem 1rem;
+}
+
+      /***Secion Four***/
+
+.sectionfour {
+  background-color: white;
+}
+
+.thesis {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thesis h1 {
+  color: rgb(74, 72, 71);
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+.thesispanel {
+  display: flex;
+  height: auto;
+  max-width: 100%;
+}
+
+.videopanel {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.videopanel video {
+  height: auto;
+  max-width: 100%;
+}
+
+.videopanel h2 {
+  color: rgb(74, 72, 71);
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.videopanel p {
+  color: rgb(74, 72, 71);
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+.exhibitlist {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-width: 40%;
+}
+
+.firstexhibit {
+  background-color: rgb(186, 186, 186);
+}
+
+.exhibit {
+  align-items: center;
+  display: flex;
+}
+
+.exhibit img {
+  height: auto;
+  max-width: 35%;
+  padding: 1rem;
+}
+
+.item {
+  height: auto;
+  max-width: 100%;
+  padding-left: 0;
+}
+
+.item h2 {
+  color: rgb(74, 72, 71);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.item p {
+  color: rgb(74, 72, 71);
+}
+
+      /***Footer***/
+
+footer {
+  background-color: white;
+  border-top: 1px rgb(74, 72, 71) solid;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 1rem 1.5rem 4rem 1.5rem;
+}
+
+footer p {
+  color: rgb(74, 72, 71);
+}
+
+footer a {
+  color: rgb(74, 72, 71);
+  padding: 0 0.5rem;
+}
+
+      /***Media Queries***/
+
+@media only screen and (max-width: 480px) {
+  .titlecolmar, .titleacademy {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .header a {
+    display: none;
+  }
+
+  .xml {
+    display: inline-block;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container, .containertwo, .containerthree {
+    max-width: 100%;
+  }
+
+  .banner img {
+    max-width: 100%;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .content h1 {
+    padding-top: 2rem;
+  }
+
+  .leftpanel {
+    display: none;
+  }
+
+  .rightpanel {
+    max-width: 100%;
+  }
+
+  .sectionthree img, .sectionthree span, .sectionthree p {
+    display: none;
+  }
+
+  .panels {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .panels div {
+    max-width: 100%;
+  }
+
+  .exhibitlist {
+    display: none;
+  }
+
+  .videopanel p, .videopanel h2 {
+    display: none;
+  }
+
+  footer p a {
+    display: none;
+  }
+
+  footer p {
+    padding-top: 1.5rem;
+  }
+
+  footer {
+    max-width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
